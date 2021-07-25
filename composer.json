@@ -1,0 +1,23 @@
+{
+    "name": "muhfirdaus19/bahasata",
+    "description": "Text Processing PHP bahasa indonesia",
+    "type": "library",
+    "keywords": [
+        "stem",
+        "indonesia",
+        "tokenizer",
+        "kata dasar"
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.7"
+    },
+    "autoload": {
+        "psr-0": {
+            "Bahasata\\": "src"
+        }
+    },
+    "license": "MIT"
+}
